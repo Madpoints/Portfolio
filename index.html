@@ -2,28 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Latest compiled and minified JQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Latest compiled and minified JS -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portfolio</title>
   </head>
   <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigator">
       <div class="container">
-        <div class="navbar-header">
 
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="" class="navbar-brand">John Furatdo</a>
-
+          <a href="" class="navbar-brand">Portfolio</a>
         </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#languages">Coding Languages</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">My Info</li>
+                <li class="dropdown-header">Email: jf8846@gmail.com</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
-  <body>
+    <!-- end of NavBar -->
+
+<div class="container" id="content">
+
+  <div class="jumbotron">
+    <section id="aboutme">
+      <p>John Furtado<p>
+      <a href="http://placeholder.com"><img src="http://via.placeholder.com/800x400"></a>
+      <p><a href="https://github.com/Madpoints">My Github</a></p>
+      <p><a href="https://www.linkedin.com/in/john-furtado-b88519131/">My LinkedIn</a></p>
+    </section>
+
+    <section id="languages">
+      <p>Coding Languages</p>
+      <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <p>Projects</p>
+      <p><a href="https://codepen.io/Madpoints/full/jwOjGj/">Levaar Burton Tribute Page</a></p>
+    </section>
+  </div>
+</div>
+</body>
+<footer>John Furtado 2017</footer>
 </html>
